@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,77 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    
+    <!-- coding is literally just boxes, seriously-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#brendan-nav"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="...">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="brendan-nav">
+                <ul class="nav navbar-nav">
+                    <li>TEST</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <aside class="col-md-5">
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Messages</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <!-- <div class="container">
+                <h1>I AM IN A CONTAINER</h1>
+            </div> -->
+            <h1>I am inside a container</h1>
+            <!-- Indicates a successful or positive action -->
+            <button type="button" class="btn btn-success">Success</button>
+        </div>
+        <div class="row">
+            <div class="well">
+                <p>I am a basic well</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="well well-sm">
+                <p>I am a small well</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="well well-lg">
+                <p>I am a large well</p>
+            </div>
+        </div>
+
+        <!-- IMPORTANT: img-responsive morphs the image into the amount of columns provided -->
+        <div class="row">
+            <div class="col-md-4"><img src="img/buildings-sky.jpg" alt="Architecture below the blue sky" class="img-responsive"></div>
+        </div>
+    </div>
+
+    <!-- script below added dropdown functionality -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
