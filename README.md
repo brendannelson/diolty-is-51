@@ -1,2 +1,2 @@
-# bootstrap-practice
-Bootstrap practice for day 3 of Geekwise mobile friendly
+# diolty-is-51
+First commit for group project "Diolty"
