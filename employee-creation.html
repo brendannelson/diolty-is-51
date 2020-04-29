@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diolty</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-default" id="index-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">
+                    <p>D I O L T Y</p>
+                </a>
+                <div class="btn-group btn-group-lg" role="group">
+                    <button type="button" class="btn btn-link"><a href="employees.html">Employees</a></button>
+                    <button type="button" class="btn btn-link"><a href="clients.html">Clients</a></button>
+                    <button type="button" class="btn btn-info"><a href="loginsignup.html">Login/Signup</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <form>
+        <!-- first name -->
+        <div class="form-group">
+            <label for="firstName">First name</label>
+            <input type="text" class="form-control" id="firstName" aria-describedby="firstName"
+                placeholder="Enter email">
+        </div>
+        <!-- last name -->
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+        </div>
+        <!-- sex -->
+        <div class="form-group">
+            <label for="listSex">Sex:</label>
+            <select>
+                <option>M</option>
+                <option>F</option>
+            </select>
+        </div>
+        <!-- date of birth -->
+        <div class="form-group">
+            <form>
+                <label for="dateOfBirth">Date of Birth</label>
+                <input type="date" id="birthday" name="birthday" />
+            </form>
+        </div>
+        <!-- position -->
+        <div class="form-group">
+            <label for="position">Position</label>
+            <input type="text" class="form-control" id="position" placeholder="Enter position">
+        </div>
+        <!-- start date -->
+        <div class="form-group">
+            <form>
+                <label for="dateOfBirth">Start Date</label>
+                <input type="date" id="startDate" name="startDate" />
+            </form>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <!-- script below added dropdown functionality -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/employee.js"></script>
+</body>
+
+</html>
