@@ -9,6 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"> -->
 </head>
 
 <body>
@@ -27,15 +28,32 @@
         </div>
     </nav>
 
-    <div class="row">
-        <div class="well">
-            <button type="button" class="btn btn-primary btn-block">Create Client</button>
+    <div class="loginPage">
+        <div class="form">
+            <form class="registerForm">
+                <input type="text" placeholder="username" />
+                <input type="text" placeholder="password" />
+                <button>Create</button>
+                <p class="message">Already Registered? <a href="#"">Login</a></p>
+            </form>
+
+            <form class=" loginForm">
+                        <input type="text" placeholder="username" />
+                        <input type="text" placeholder="password" />
+                        <button>Login</button>
+                        <p class="message">Not Registered?<a href="#">Register</a></p>
+            </form>
         </div>
     </div>
+
+
+
 
     <!-- script below added dropdown functionality -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
