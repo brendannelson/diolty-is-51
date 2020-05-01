@@ -29,7 +29,29 @@
     </nav>
 
     <form>
-        <p>enter company name, phone number, e-mail address, shipping & mailing address (option to select if the same)</p>
+        <!-- client name -->
+        <div class="form-group">
+            <label for="companyName">Client name</label>
+            <input type="text" class="form-control" id="clientName" aria-describedby="clientName"
+                placeholder="Enter name of client">
+        </div>
+        <!--phone number-->
+        <div class="form-group">
+            <label for="phoneNumber">Phone number</label>
+            <input type="tel" class="form-control" id="phoneNumber" aria-describedby="phoneNumber"
+                placeholder="Enter phone number">
+        </div>
+        <!--e-mail address-->
+        <div class="form-group">
+            <label for="emailAddress">E-mail address</label>
+            <input type="text" class="form-control" id="emailAddress" aria-describedby="emailAddress"
+                placeholder="Enter e-mail address for contact">
+        </div>
+        <!--physical address-->
+        <div class="form-group">
+            <label for="physicalLocation">Address</label>
+            <input type="text" class="form-control" id="address" aria-describedby="address" placeholder="Enter address">
+        </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 

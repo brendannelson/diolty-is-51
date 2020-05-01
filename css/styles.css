@@ -74,3 +74,13 @@ body {
 .btn-primary a {
     color: #FFF;
 }
+
+.column-title {
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: x-large;
+}
+
+.col-md-5 {
+    background-color: #E6E2DA;
+}
